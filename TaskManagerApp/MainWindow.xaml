@@ -14,9 +14,9 @@
      TextOptions.TextRenderingMode="Auto"
      Background="{DynamicResource MaterialDesignPaper}"
      FontFamily="{DynamicResource MaterialDesignFont}"
-        Title="MainWindow" Height="450" Width="800" Closing="WindowClosing">
+        Title="MainWindow" Height="508.5" Width="830" Closing="WindowClosing">
     <Grid>
-        <DatePicker materialDesign:HintAssist.Hint="Выберите дату" Margin="0,29,0,365" Grid.ColumnSpan="2"/>
+        <DatePicker  materialDesign:HintAssist.Hint="Выберите дату" Margin="0,29,0,365" Grid.ColumnSpan="2"/>
         <materialDesign:TimePicker materialDesign:HintAssist.Hint="Выберите время" Margin="0,54,0,340" Grid.ColumnSpan="2"/>
         <ComboBox Name="periodicityComboBox" HorizontalAlignment="Left" Margin="198,157,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="Периодичность" HorizontalAlignment="Left" Margin="198,126,0,0" VerticalAlignment="Top"/>
@@ -24,18 +24,20 @@
         <ComboBox Name="typeComboBox" HorizontalAlignment="Left" Margin="439,157,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="Тип задания" HorizontalAlignment="Left" Margin="439,126,0,0" VerticalAlignment="Top"/>
         <Separator Height="58" Margin="0,204,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="69,283,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Введите почту отправителя" VerticalAlignment="Top" Width="179"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="69,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" materialDesign:HintAssist.Hint="Введите почту получателя"/>
-        <Label Content="Поля" HorizontalAlignment="Center" Margin="0,245,0,0" VerticalAlignment="Top"/>
-        <RichTextBox HorizontalAlignment="Left" Height="100" Margin="352,286,0,0" VerticalAlignment="Top" Width="118" materialDesign:HintAssist.Hint="Текст письма" >
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="132,296,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Введите почту отправителя" VerticalAlignment="Top" Width="179"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="132,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" materialDesign:HintAssist.Hint="Введите почту получателя"/>
+        <Label Content="Поля" HorizontalAlignment="Center" Margin="376,245,376,0" VerticalAlignment="Top"/>
+        <RichTextBox HorizontalAlignment="Left" Height="100" Margin="385,300,0,0" VerticalAlignment="Top" Width="118" materialDesign:HintAssist.Hint="Текст письма" >
             <FlowDocument>
                 <Paragraph >
                     <Run />
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Button Content="Добавить задачу" HorizontalAlignment="Left" Margin="631,377,0,0" VerticalAlignment="Top" Width="151"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="69,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" materialDesign:HintAssist.Hint="Введите имя отправителя"/>
-        <Label Content="Текст :" HorizontalAlignment="Left" Margin="306,286,0,0" VerticalAlignment="Top"/>
+        <Button Content="Добавить задачу" HorizontalAlignment="Left" Margin="661,436,0,0" VerticalAlignment="Top" Width="151"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="132,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" materialDesign:HintAssist.Hint="Введите имя отправителя"/>
+        <Label Content="Текст :" HorizontalAlignment="Left" Margin="339,300,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="523,300,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Введите тему" VerticalAlignment="Top" Width="179"/>
+        <PasswordBox HorizontalAlignment="Left" Height="29" Margin="633,382,0,0"  VerticalAlignment="Top" Width="179" materialDesign:HintAssist.Hint="Введите пароль от почты"/>
     </Grid>
 </Window>
