@@ -45,3 +45,8 @@ C:\Users\User\source\repos\TaskManagerApp\TaskManagerApp\obj\Debug\TaskManagerAp
 C:\Users\User\source\repos\TaskManagerApp\TaskManagerApp\obj\Debug\TaskManagerApp.UI.csproj.CopyComplete
 C:\Users\User\source\repos\TaskManagerApp\TaskManagerApp\obj\Debug\TaskManagerApp.exe
 C:\Users\User\source\repos\TaskManagerApp\TaskManagerApp\obj\Debug\TaskManagerApp.pdb
+C:\Users\ШадикьянР\source\repos\TaskManagerApp\TaskManagerApp\bin\Debug\EntityFramework.dll
+C:\Users\ШадикьянР\source\repos\TaskManagerApp\TaskManagerApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ШадикьянР\source\repos\TaskManagerApp\TaskManagerApp\bin\Debug\EntityFramework.xml
+C:\Users\ШадикьянР\source\repos\TaskManagerApp\TaskManagerApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ШадикьянР\source\repos\TaskManagerApp\TaskManagerApp\bin\Debug\ru\EntityFramework.resources.dll
