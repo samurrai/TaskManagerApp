@@ -98,17 +98,24 @@ namespace TaskManagerApp
             }
             else if (taskTypeComboBox.SelectedIndex == 1)
             {
+                if (string.IsNullOrWhiteSpace(pathToFileTextbox.Text))
+                {
 
+                }
+                else if (string.IsNullOrWhiteSpace(fileNameTextbox.Text))
+                {
+
+                }
             }
             else
             {
-                if (string.IsNullOrEmpty(directoryFromLabel.Text))
+                if (string.IsNullOrWhiteSpace(directoryFromTextbox.Text))
                 {
-                    MessageBox.Show("Введите путь до папки");
+                    MessageBox.Show("Введите путь директории из которой нужно переместить");
                 }
-                if (string.IsNullOrEmpty(directoryToLabel.Text))
+                if (string.IsNullOrEmpty(directoryToTextbox.Text))
                 {
-                    MessageBox.Show("Введите путь до папки");
+                    MessageBox.Show("Введите путь директории в которую нужно переместить");
                 }
         }
     }

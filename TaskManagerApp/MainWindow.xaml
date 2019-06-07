@@ -42,12 +42,12 @@
             <PasswordBox Name="passwordTextbox" HorizontalAlignment="Left" Height="29" Margin="633,382,0,0"  VerticalAlignment="Top" Width="179" materialDesign:HintAssist.Hint="Введите пароль от почты"/>
         </Grid>
         <Grid Name="fileDownloadingGrid" Visibility="Hidden" IsEnabled="False">
-            <TextBox Name="pathToFileLabel" materialDesign:HintAssist.Hint="Введите путь до файла" HorizontalAlignment="Left" Height="23" Margin="336,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
-            <TextBox Name="fileNameLabel" HorizontalAlignment="Left" Height="23" Margin="336,350,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Введите название файла" VerticalAlignment="Top" Width="156"/>
+            <TextBox Name="pathToFileTextbox" materialDesign:HintAssist.Hint="Введите путь до файла" HorizontalAlignment="Left" Height="23" Margin="336,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+            <TextBox Name="fileNameTextbox" HorizontalAlignment="Left" Height="23" Margin="336,350,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Введите название файла" VerticalAlignment="Top" Width="156"/>
         </Grid>
         <Grid Name="directoryChangingGrid" Visibility="Hidden" IsEnabled="False">
-            <TextBox Name="directoryFromLabel" materialDesign:HintAssist.Hint="Введите путь начальной директории" HorizontalAlignment="Left" Height="23" Margin="284,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
-            <TextBox Name="directoryToLabel" HorizontalAlignment="Left" Height="23" Margin="284,346,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Введите путь конечной директории" VerticalAlignment="Top" Width="251"/>
+            <TextBox Name="directoryFromTextbox" materialDesign:HintAssist.Hint="Введите путь начальной директории" HorizontalAlignment="Left" Height="23" Margin="284,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
+            <TextBox Name="directoryToTextbox" HorizontalAlignment="Left" Height="23" Margin="284,346,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Введите путь конечной директории" VerticalAlignment="Top" Width="251"/>
         </Grid>
         <Button Click="AddTask" Content="Добавить задачу" HorizontalAlignment="Left" Margin="661,436,0,0" VerticalAlignment="Top" Width="151"/>
     </Grid>
